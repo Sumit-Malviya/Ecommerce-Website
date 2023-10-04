@@ -24,5 +24,17 @@
     </form>
 </div>
 
+{% endblock %}
+
+
+
+{% block js %}
+
+<script>
+{% if thank %}
+alert('Thanks for contacting us, your inquiry has been shared with our support team.');
+document.location = "/shop/contact";
+{% endif %}
+</script>
 
 {% endblock %}

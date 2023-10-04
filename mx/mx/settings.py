@@ -56,7 +56,7 @@ ROOT_URLCONF = 'mx.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['mx/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
